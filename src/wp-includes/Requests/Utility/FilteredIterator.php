@@ -55,7 +55,7 @@ class Requests_Utility_FilteredIterator extends ArrayIterator {
 	/**
 	 * @inheritdoc
 	 *
-	 * @phpcs:disable PHPCompatibility.FunctionNameRestrictions.ReservedFunctionNames.MethodDoubleUnderscore,PHPCompatibility.FunctionNameRestrictions.NewMagicMethods.__unserializeFound
+	 * @phpcs:disable PHPCompatibility.FunctionNameRestrictions.NewMagicMethods.__unserializeFound
 	 */
 	public function __unserialize($serialized) {}
 
